@@ -158,7 +158,13 @@ body {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
+/****** Activités à Marseille ***********/
+.activités {
+    margin-top: 10px;
+}
+.activite card{
+    width: 20%;
+}
 /****** Footer ***********/
 
 footer {
