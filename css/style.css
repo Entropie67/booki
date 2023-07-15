@@ -67,7 +67,29 @@ body {
     padding: 30px;
     box-sizing: border-box;
 }
+/*******************************/
+/****** Filtres      ***********/
+/*******************************/
+#filtres {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 15px;
+}
 
+.filtre {
+    display: flex;
+    border: 2px solid #D9D9D9;
+    padding: 4px 19px;
+    border-radius: 25px;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+}
+
+.filtre:hover {
+    background: #DEEBFF;
+}
 
 /*******************************/
 /****** Hebergements ***********/
@@ -75,6 +97,7 @@ body {
 
 .hebergements {
     width: 65%;
+    margin-top: 33px;
 }
 /* J'ajoute ici la classe pour les cartes hebergements en m'insiprant de la partie populaire */
 .hebergements-cards {
