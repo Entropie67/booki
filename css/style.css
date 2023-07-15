@@ -57,6 +57,7 @@ body {
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
+    margin-top: 33px;
     display: flex;
     justify-content: space-between;
 }
@@ -97,7 +98,7 @@ body {
 
 .hebergements {
     width: 65%;
-    margin-top: 33px;
+
 }
 /* J'ajoute ici la classe pour les cartes hebergements en m'insiprant de la partie populaire */
 .hebergements-cards {
